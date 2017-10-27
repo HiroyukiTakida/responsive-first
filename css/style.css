@@ -19,14 +19,14 @@ h1 {
   font-weight: bold;
   text-align: center;
   margin: 20px 0;
-  color: #a4a4a4;
+  color: #989898;
 }
 
 h2 {
   font-size: 2.5rem;
   font-weight: bold;
   text-align: center;
-  color: #878787;
+  color: #989898;
 }
 
 ul {
@@ -89,7 +89,7 @@ ul {
           box-sizing: border-box;
   -webkit-flex: 1;
           flex: 1;
-  margin: 0 0.5% 10px 0.5%;
+  margin: 0 20px 10px 20px;
 }
 
 .title-text
@@ -97,7 +97,8 @@ ul {
   display: block;
   margin: 0 0;
   padding: 10px 0;
-  background-color: #cccccc;
+  
+  background-color: #d8d8d8;
 }
 
 .item
@@ -106,7 +107,7 @@ ul {
   margin: 0 0;
   padding: 10px;
   text-align: left;
-  background-color: #878787;
+  background-color: #a0a0a0;
 }
 
 @media (max-width: 768px) {
@@ -126,20 +127,20 @@ footer {
   width: 100%;
   margin: 0 0;
   padding: 20px 0;
-  background-color: #eeeeee;
+  background-color: #e8e8e8;
 }
 
 .bottan {
   display: block;
-  width: 30%;
+  width: 250px;
   margin: 20px auto ;
-  padding: 10px 0;
+  padding: 5px 0;
   font-size: 2.5rem; /* size */
   font-weight: bold; /* weight */
   text-align: center; /* テキストの中央寄せ */
   color: #ffffff; /* 文字色 */
-  background-color: #878787; /* 背景色 */
-  border: solid 1px #878787; /* ボーダー色 */
+  background-color: #a0a0a0; /* 背景色 */
+  border: solid 1px #a0a0a0; /* ボーダー色 */
   -webkit-border-radius: 4px; /* 角丸 */
      -moz-border-radius: 4px;
           border-radius: 4px;
